@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: needseu
+  api_key: '978777387126337'
+  api_secret: JzgpzplQBpeKy7r0R0YmIsd19J8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: needseu
+  api_key: '978777387126337'
+  api_secret: JzgpzplQBpeKy7r0R0YmIsd19J8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: needseu
+  api_key: '978777387126337'
+  api_secret: JzgpzplQBpeKy7r0R0YmIsd19J8
+  enhance_image_tag: true
+  static_image_support: false

@@ -1,0 +1,25 @@
+
+<p>
+  <strong>User:</strong>
+  <%= @post.user_id %>
+</p>
+
+<%= cl_image_tag(@post.image.url(:lay), :overlay=>"EU_clean_face_omidf1", :gravity=>"faces", :width=>800, :type=>"fetch", :y=>100, :x=>-30,) %>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @post.message %>
+</p>
+
+<p>
+  <strong>Tags list:</strong>
+  <%= @post.tags_list %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
