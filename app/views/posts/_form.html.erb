@@ -2,11 +2,13 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :user_id %>
+    <%= f.input :user_id, as: :hidden %>
+    <br/>
     <%= f.file_field :image %>
+    <br/>
     <%= f.input :title %>
     <%= f.input :message %>
-    <%= f.input :tags_list %>
+    <%= f.input :tags_list, as: :hidden %>
   </div>
 
   <div class="form-actions">
